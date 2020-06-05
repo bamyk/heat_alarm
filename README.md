@@ -8,7 +8,7 @@ Required hardware: Arduino UNO, DHT11 temperature sensor, a PC with Linux OS.
 
 Add the Arduino_temp_code.c code from the repo to your Arduino IDE, the temperature data will then be fed to your Linux OS via the USB port (usually /dev/ttyUSB0).
 
-     Linux:
+      Linux:
 $ stty igncr 9600 -F /dev/ttyUSB0          # The stty command sets the parameters and speed of the COM port   
                                            # -F   - open and use the specified DEVICE instead of stdin
                                            # igncr   - carriage return characters ('\r') are discarded on input
