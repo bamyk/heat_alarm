@@ -15,4 +15,6 @@ $ stty igncr 9600 -F /dev/ttyUSB0          # The stty command sets the parameter
 
 $ cat /dev/ttyUSB0  >> /home/user/inputfile       # saves output from Arduino line by line into a file
 
+$ sudo apt mailutils   - will install mailutils + postfix MTA (mail and mailx commands)   # this command is valid for Ubuntu and other Debian based distros     # choose the internet option when asked to configure postfix
+
 Now run the Evaluate_Arduino_output.sh script
