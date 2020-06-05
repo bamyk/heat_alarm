@@ -12,4 +12,5 @@ $ stty igncr 9600 -F /dev/ttyUSB0          # The stty command sets the parameter
                                            # -F   - open and use the specified DEVICE instead of stdin
                                            # igncr   - carriage return characters ('\r') are discarded on input
 $ cat /dev/ttyUSB0  >> /home/user/inputfile       # saves output from Arduino line by line into a file
-# now run the Evaluate_Arduino_output.sh script
+
+Now run the Evaluate_Arduino_output.sh script
